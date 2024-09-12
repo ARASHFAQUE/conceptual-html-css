@@ -1,3 +1,70 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
 }
+
+.hero{
+    background-image: url('../images/cow.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero h1{
+    color: azure;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: cursive;
+    /* line-height: 100px; */
+    word-spacing: 40px;
+    letter-spacing: 8px;
+    padding-top: 60px;
+}
+
+.article, #cow-type{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+
+    /* border-width: 15px;
+    border-color: yellow;
+    border-style: solid; */
+    border: 15px solid yellow;
+
+    background-color: rgb(12, 231, 231);
+    padding: 60px;
+}
+
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.article p{
+    font-size: 28px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+.article p .milk{
+    font-size: 2em; /* gives size with respect to its parent container means 28px x 2 = 56px */
+
+
+    /* font-size: 2rem; gives size with respect to root means 28px x 2 = 56px */
+
+    background-color: yellow;
+    display: inline-block;
+    width: 600px;
+    /* height: 300px; */
+}
+
