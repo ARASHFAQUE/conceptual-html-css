@@ -35,7 +35,7 @@
     margin-top: 60px;
     margin-bottom: 60px; */
     margin: 60px auto;
-    background: linear-gradient(45deg, pink, rgb(156, 156, 242));
+    background: linear-gradient(45deg, pink, rgb(156, 156, 242), red);
 
     /* border-width: 15px;
     border-color: yellow;
